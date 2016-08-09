@@ -215,6 +215,8 @@
 
 	}
 
+
+
 /* Grid */
 
 	.row {
@@ -2823,7 +2825,7 @@
 						width: 80px;
 						height: 30px;
 						line-height: 30px;
-						position: absolute;
+						position: relative;
 						left: 50%;
 						margin-left: -40px;
 						background: rgba(132, 128, 136, 0.75);
@@ -2836,16 +2838,16 @@
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
 				backface-visibility: hidden;
-				-moz-transform: translateY(-50vh);
-				-webkit-transform: translateY(-50vh);
-				-ms-transform: translateY(-50vh);
-				transform: translateY(-50vh);
+				-moz-transform: translateY(-44vh);
+				-webkit-transform: translateY(-44vh);
+				-ms-transform: translateY(-44vh);
+				transform: translateY(-44vh);
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 50vh;
+				height: 44vh;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
@@ -2929,7 +2931,7 @@
 				-moz-transform: translateY(50vh);
 				-webkit-transform: translateY(50vh);
 				-ms-transform: translateY(50vh);
-				transform: translateY(50vh);
+				transform: translateY(44vh);
 			}
 
 			body.navPanel-visible #navPanel {
@@ -3027,7 +3029,7 @@
 				}
 
 				.carousel article {
-					width: 14em;
+					width: 8em;
 					padding-bottom: 2em;
 					margin: 0 0.5em 0 0;
 				}
