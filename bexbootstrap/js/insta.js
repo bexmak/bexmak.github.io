@@ -4,7 +4,7 @@ $(document).ready(function () {
 	  instaID: '49feb347a44649aba8a9bf3b6efc7a4c',
 	  
 	  init: function () {
-	    $jQuery.fn.spectragram.accessData = {
+	    $.fn.spectragram.accessData = {
 	      accessToken: this.instaToken,
 	      clientID: this.instaID
 	    };
