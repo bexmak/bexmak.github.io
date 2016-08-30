@@ -11,7 +11,7 @@ $(document).ready(function () {
 	    
 	    $jQuery('.feed').spectragram('getUserFeed',{
 	      max: 12,
-	      query: 'cats',
+	      query: 'bexmak',
 	      wrapEachWith: '<div class="photo">'
 	    });
 	  }
