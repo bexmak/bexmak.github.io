@@ -4,6 +4,3 @@ jQuery.fn.spectragram.accessData = {
     clientID: '49feb347a44649aba8a9bf3b6efc7a4c'
 };
 
-$('instafeed ul').spectragram('getRecentTagged',{
-    query: 'converse'
-});
