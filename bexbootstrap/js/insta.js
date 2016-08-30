@@ -9,7 +9,7 @@ $(document).ready(function () {
 	      clientID: this.instaID
 	    };
 	    
-	    $jQuery('.feed').spectragram('getUserFeed',{
+	    $('.feed').spectragram('getUserFeed',{
 	      max: 12,
 	      query: 'bexmak',
 	      wrapEachWith: '<div class="photo">'
