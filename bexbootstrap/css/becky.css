@@ -1,0 +1,34 @@
+.jumbotron {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-image: url(http://randomwallpapers.net/blue-sky-sea-beach-sighting-photography-1920x1200-wallpaper110380.jpg);
+  background-size:cover;
+
+}
+
+.jumbotron h2 {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  text-transform: uppercase;
+  display:inline-block;
+  padding: 10px 0 10px 0;
+
+}
+
+.btn-primary {
+	color: #000;
+	border-color: #000;
+	border-width: 3px;
+	background-color: transparent;
+}
+
+.btn-primary:hover {
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.btn {
+	display: inline-block;
+	border-radius: 0px;
+}
