@@ -1,18 +1,26 @@
 .jumbotron {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  background-image: header.jpg;
+  background-image: url(../header.jpg);
   background-size:cover;
-
-}
+  height: 100%;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  margin: 0px;
+ }
 
 .jumbotron h2 {
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
   text-transform: uppercase;
   display:inline-block;
-  padding: 10px 0 10px 0;
+}
 
+.row{
+	margin: 0px;
+}
+
+#about {
+	background-color: #FFF;
+	margin: 0px;
 }
 
 .btn-primary {
@@ -31,4 +39,17 @@
 .btn {
 	display: inline-block;
 	border-radius: 0px;
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+  	left: 0;
+  	right: 0;
+  	padding: 10px;
+  	opacity: 100%;
+}
+
+.feed{
+
 }
